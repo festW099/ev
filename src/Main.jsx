@@ -1,7 +1,7 @@
 // Main.jsx
 import React from 'react';
-import Header from "./header.jsx";
-import Footer from "./footer.jsx";
+import Header from "./Header.jsx";
+import Footer from "./Footer.jsx";
 
 function Main() {
     return (
