@@ -1,4 +1,4 @@
-// src/vite-ev-main.jsx
+// src/vite-ev-Main.jsx
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';

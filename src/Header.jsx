@@ -27,10 +27,10 @@ function Header() {
                         <a href="d">Донат</a>
                         <a href="r?url=https://t.me/ender_vanilla/20" target="_blank">Карта</a>
                         <a href="#socseti">Контакты</a>
-                        <a href="faq">FAQ</a>
-                        <a href="r?url=https://discord.gg/FRvUhwGzs3">Wiki</a>
-                        <a href="evl">Launcher</a>
-                        <a href="/ua">UA</a>
+                        <a href="r&url=https://discord.com/channels/1072827575426109490/1373460124441645138">FAQ</a>
+                        <a href="r?url=https://discord.com/channels/1072827575426109490/1199624750977273856">Wiki</a>
+                        <a href="evl">EVLauncher</a>
+                        {/*<a href="/ua">UA</a>*/}
                     </nav>
                 </ul>
             </nav>

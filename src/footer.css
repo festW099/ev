@@ -2,7 +2,7 @@
 .footer {
     padding: 20px;
     text-align: center;
-    width: 100%;
+    /*width: 100%;*/
 
     background: rgba(70, 70, 70, 0.2); /* полупрозрачный фон */
     backdrop-filter: blur(10px);
