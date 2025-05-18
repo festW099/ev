@@ -23,7 +23,7 @@ jobs:
         run: npm run build
 
       - name: OFF Jekyll
-        run: echo > dist/.nojekyll
+        run: echo > build/.nojekyll
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
