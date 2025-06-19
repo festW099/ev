@@ -8,11 +8,11 @@ function Main() {
         <div className="App">
             <Header />
             <main>
-                <div class="center-hor">
+                <div className="center-hor">
                     <h1>Ender vanilla - Без вайповая ламповая ванилла с элементами роле плэя</h1>
                     <p><b>Наша главаная цель</b> дать игрокам <em>хорошее настроение</em> и <em>возможность найти друзей</em></p>
 
-                    <h3 class="margin-b">Причины играть на Ender vanilla:</h3>
+                    <h3 className="margin-b">Причины играть на Ender vanilla:</h3>
                     <ul>
                         <li>Нет вайпов</li>
                         <li>Честное комьюнити</li>
