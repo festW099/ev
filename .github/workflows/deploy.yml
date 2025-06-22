@@ -22,9 +22,6 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: FU
-        run: npm run preview
-
       - name: OFF Jekyll
         run: echo > dist/.nojekyll
 
