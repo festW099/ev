@@ -6,7 +6,7 @@
   "homepage": "https://ender-vanilla.ru/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite",
     "predeploy": "npm run build",
     "lint": "eslint .",
     "preview": "vite preview"
