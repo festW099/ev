@@ -2,10 +2,64 @@
 .footer {
     padding: 20px;
     text-align: center;
-    /*width: 100%;*/
+    background: rgba(30, 0, 50, 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-top: 1px solid rgba(150, 0, 200, 0.3);
+    color: #e0aaff;
+    font-size: 0.9rem;
+    position: relative;
+    z-index: 1;
+    transition: all 0.4s ease;
+}
 
-    background: rgba(70, 70, 70, 0.2); /* полупрозрачный фон */
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px); /* для Safari */
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
+.footer:hover {
+    background: rgba(40, 0, 60, 0.7);
+    border-top: 1px solid rgba(180, 0, 255, 0.4);
+    box-shadow: 0 -5px 20px rgba(120, 0, 180, 0.3);
+}
+
+.footer a {
+    color: #c77dff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 5px rgba(199, 125, 255, 0.3);
+}
+
+.footer a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.footer .social-icons {
+    margin-top: 10px;
+}
+
+.footer .social-icons a {
+    display: inline-block;
+    margin: 0 8px;
+    font-size: 1.2rem;
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    opacity: 0.8;
+    font-size: 0.8rem;
+}
+
+/* Анимация свечения для разделителей */
+.footer .divider {
+    color: #9d4edd;
+    animation: glow 2s ease-in-out infinite alternate;
+    padding: 0 5px;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 2px #9d4edd;
+    }
+    to {
+        text-shadow: 0 0 5px #c77dff;
+    }
 }
